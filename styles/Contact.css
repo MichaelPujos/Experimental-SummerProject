@@ -1,0 +1,40 @@
+/*DEVELOPER: MICHAEL PUJOS, IS117-002, SPRING 2023 */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    height: 100%;
+    font-size: 50px;
+}
+
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+    font-size: medium;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #080808;
+    color: #fff;
+}
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    position: sticky;
+    line-height: 60px;
+    font-size: 15px;
+}
+.footer p {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

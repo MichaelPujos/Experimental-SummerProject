@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+  <title>Profile</title>
+  <!-- Required meta tags -->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- Custom styles -->
+  <style>
+    body {
+      background-color: #f8f8f8;
+      color: #333;
+      height: 100%;
+      font-size: medium;
+    }
+
+    .navbar-inverse {
+      background-color: #222;
+      border-color: #080808;
+      font-size: medium;
+    }
+
+    .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+      background-color: #080808;
+      color: #fff;
+    }
+
+    .jumbotron {
+      background-color: #f0f0f0;
+      padding-top: 110px;
+      padding-bottom: 100px;
+      margin-bottom: 0;
+      text-align: center;
+    }
+
+    .footer {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      position: center;
+      line-height: 60px;
+
+    }
+    .footer p {
+      margin-bottom: 0;
+      text-align: center;
+      font-size: 12px;
+      font-style: oblique;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Home%20Page.html">Work. In. Progress (W.I.P)</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Home%20Page.html">Home</a></li>
+        <li class="active"><a href="profile.html">Profile</a></li>
+        <li class="active"><a href="Contact.html">Contact</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Help <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="community.html">Community</a></li>
+            <li><a href="guide.html">Guidelines</a></li>
+            <li><a href="https://github.com/MichaelPujos">About Us</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="container">
+  <div class="jumbotron">
+    <h1>Edit Profile</h1>
+    <p>
+      The Profile page allows you to make your own personal page, gives you the option to update your status and pictures. The interface will try
+      and display said layout in order to fully make things easier and straight on with the user.
+    </p>
+  </div>
+</div>
+<!-- Content -->
+<div class="container my-5">
+  <h1>Profile Customization</h1>
+  <hr>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Profile Picture</h5>
+          <img src="https://via.placeholder.com/150" class="img-fluid mb-3" alt="Profile Picture">
+          <div class="form-group">
+            <label for="profilePicture">Upload a new picture</label>
+            <input type="file" class="form-control-file" id="profilePicture">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-9">
+      <form>
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+        </div>
+        <div class="form-group">
+          <label for="bio">Bio</label>
+          <textarea class="form-control" id="bio" rows="3" placeholder="Enter your bio"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="bio">Location</label>
+          <textarea class="form-control" id="location" rows="3" placeholder="Enter your location"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="bio">Website</label>
+          <textarea class="form-control" id="website" rows="3" placeholder="Enter your website"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="status">Status</label>
+          <select class="form-control" id="status">
+            <option>Available</option>
+            <option>Busy</option>
+            <option>Away</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Save</button>
+      </form>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<!-- Footer -->
+<footer class="footer bg-dark text-light">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <p>&copy; 2023 Work.In.Progress Michael Pujos. All rights reserved.</p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline text-right">
+          <li class="list-inline-item"><a href="guide.html">Terms of Use</a></li>
+          <li class="list-inline-item"><a href="https://www.state.gov/privacy-policy/">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="Contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+<!-- DEVELOPER: Michael Pujos, IS117-002, Spring 2023 ->
